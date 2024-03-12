@@ -12,7 +12,7 @@ const Herosection = ({ title }) => {
               efficient and secure delivery
             </p>
             <a
-              href="https://system.parcelpointltd.com/merchant-registration"
+              href="https://system.parceljet.com/merchant-registration"
               target="_blank"
             >
               <button style={{ height: "50px" }}>Become a Merchant</button>

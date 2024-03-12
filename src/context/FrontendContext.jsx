@@ -16,7 +16,7 @@ export const FrontendProvider = ({ children }) => {
     setLoader(true);
     try {
       const { data } = await axios.get(
-        `https://system.parcelpointltd.com/api/gee?tracking_id=${trackingId}`
+        `https://system.parceljet.com/api/gee?tracking_id=${trackingId}`
       );
       setTrackingData(data);
       localStorage.setItem("trackingData", JSON.stringify(data)); // Store in localStorage

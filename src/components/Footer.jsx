@@ -126,7 +126,7 @@ const Footer = () => {
               </li>
               <div className="mb-3 mt-4">
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.percel_point.merchant&pcampaignid=web_share"
+                  href="https://play.google.com/store/apps/details?id=com.percel"
                   target="_blank"
                 >
                   <img
@@ -142,7 +142,7 @@ const Footer = () => {
         <div className={["bottom-details"]}>
           <div className={"bottom_text"}>
             <span className={"copyright_text"}>
-              © 2024 Parcel Point Ltd. All rights reserved
+              © 2024 Parcel Jet Courier. All rights reserved
               <a href="#" target="_blank"></a>
             </span>
             <span className="developed">

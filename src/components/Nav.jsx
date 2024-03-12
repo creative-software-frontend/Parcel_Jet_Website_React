@@ -71,7 +71,7 @@ const Nav = () => {
             <div className="mobile-auth">
               <a
                 onClick={() => setOpenMenu(false)}
-                href="https://system.parcelpointltd.com/"
+                href="https://system.parceljt.com/"
                 target="_blank"
                 style={{ marginRight: "0px", display: "block" }}
               >
@@ -89,7 +89,7 @@ const Nav = () => {
               <a
                 onClick={() => setOpenMenu(false)}
                 target="_blank"
-                href="https://system.parcelpointltd.com/merchant-registration"
+                href="https://system.parceljet.com/merchant-registration"
               >
                 <button
                   className={"nav__regsiter_btn"}
@@ -126,7 +126,7 @@ const Nav = () => {
         <div className="authentication">
           <a
             onClick={() => setOpenMenu(false)}
-            href="https://system.parcelpointltd.com/"
+            href="https://system.parceljet.com/"
             
             style={{ marginRight: "15px" }}
           >
@@ -140,7 +140,7 @@ const Nav = () => {
           <a
             onClick={() => setOpenMenu(false)}
             
-            href="https://system.parcelpointltd.com/merchant-registration"
+            href="https://system.parceljet.com/merchant-registration"
           >
             <button className={"nav__regsiter_btn"}>Register</button>
           </a>

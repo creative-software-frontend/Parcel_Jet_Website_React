@@ -116,7 +116,7 @@ const AboutPage = () => {
                   marginLeft: "30px",
                 }}
               >
-                - Chairman OF Parcel Point Ltd
+                - Chairman OF Parcel Jet Courier
               </h4>
             </div>
           </div>

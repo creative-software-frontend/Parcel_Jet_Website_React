@@ -140,7 +140,7 @@ const Feature = () => {
               </label>
               <div className={"accordion-content"}>
                 <p>
-                  At Parcel Point Ltd you can request for your payment every
+                  At Parcel Jet Courier you can request for your payment every
                   seven days of the week. We Courier provides multiple payment
                   methods such as cash, Bkash or Rocket and all mobile banking
                   payment. Also you can collect money simply by transferring

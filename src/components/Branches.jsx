@@ -35,8 +35,8 @@ const Branches = () => {
             </h1>
             <p className={"address"}>
             Section-10, Mirpur,Dhaka            </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177569</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* single branch */}
           <div className={"branch"}>
@@ -49,8 +49,8 @@ const Branches = () => {
             <p className={"address"}>
         Rony Merket, Kamrangir Chor,Dhaka
       </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177571</p>
+      <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* single branch */}
           <div className={"branch"}>
@@ -63,8 +63,8 @@ const Branches = () => {
             <p className={"".address}>
             New Super Market, Kachabazar,New Market, Dhaka
             </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177572</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* single branch */}
           <div className={"branch"}>
@@ -76,8 +76,8 @@ const Branches = () => {
             </h1>
             <p className={"address"}>
             Sector-10, Uttara, Dhaka            </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177573</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* single branch */}
           <div className={"branch"}>
@@ -90,8 +90,8 @@ const Branches = () => {
             <p className={"".address}>
             Shahid Faruk Iqbal Road, Jatrabari, Dhaka
             </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177574</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* end single branch */}
 
@@ -107,8 +107,8 @@ const Branches = () => {
             Katalgonj Road, Panchlaish,Chattogram
 
             </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177561</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* end single branch */}
            {/* single branch */}
@@ -122,8 +122,8 @@ const Branches = () => {
             <p className={"".address}>
             Zindabazar, Sylhet
             </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177562</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* end single branch */}
            {/* single branch */}
@@ -137,8 +137,8 @@ const Branches = () => {
             <p className={"".address}>
             Charpara Road, Mymensingh
             </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177563</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* end single branch */}
            {/* single branch */}
@@ -152,8 +152,8 @@ const Branches = () => {
             <p className={"".address}>
             Notullabad, Barishal
             </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177564</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* end single branch */}
            {/* single branch */}
@@ -167,8 +167,8 @@ const Branches = () => {
             <p className={"".address}>
             College Road,Bogura
             </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177565</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* end single branch */}
            {/* single branch */}
@@ -182,8 +182,8 @@ const Branches = () => {
             <p className={"".address}>
             Khan A Sabur Road, Khulna
             </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>01401177575</p>
+            <p className={"email"}>info@parceljet.com</p>
+            <p className={"mobile"}>0140000000</p>
           </div>
           {/* end single branch */}
           

@@ -20,7 +20,7 @@ const ServiceArea = () => {
     try {
       setLoader(true);
       const { data } = await axios.get(
-        "https://system.parcelpointltd.com/api/distList"
+        "https://system.parceljet.com/api/distList"
       );
       // Sorting data based on the 'name' property alphabetically
       const isDisrict = true;
@@ -43,7 +43,7 @@ const ServiceArea = () => {
     try {
       setLoader(true);
       const { data } = await axios.get(
-        "https://system.parcelpointltd.com/api/dist-area?id=" + id
+        "https://system.parceljet.com/api/dist-area?id=" + id
       );
       // Sorting data based on the 'name' property alphabetically
       const sortedDataAlphabetically = sortDataAlphabetically(data.data);
