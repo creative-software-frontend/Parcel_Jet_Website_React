@@ -37,7 +37,7 @@ const Feature = () => {
               </label>
               <div className={"accordion-content"}>
                 <p>
-               Parcel Point Ltd gives you the opportunity of unlimited pickup.
+                Parcel Jet Courier gives you the opportunity of unlimited pickup.
                   You can give any amount of parcels regardless of their size
                   and weight. Also you don’t have to bring your parcels to our
                   office! Our trusted pickup man will visit your location and
@@ -116,7 +116,7 @@ const Feature = () => {
               </label>
               <div className={"accordion-content"}>
                 <p>
-                Parcel Point Ltd provides an unique tracking code for your
+                Parcel Jet Courier provides an unique tracking code for your
                   every consignments. Through our website app you can learn the
                   current status of the products and stay up to date.
                 </p>

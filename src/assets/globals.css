@@ -11,18 +11,18 @@
 }
 
 :root {
+  --primary-color: #d3852c;
+  --primary-rgb-color: 43, 114, 251;
+  --primary-bg-color: #24262b;
   --dark-grey: #333333;
   --medium-grey: #636363;
   --light-grey: #eeeeee;
   --medium-light-grey: #cccccc;
   --very-light-grey: #bbbbbb;
   --ash: #f4f4f4;
-  --primary-color: #052957;
-  --primary-rgb-color: 43, 114, 251;
-  --primary-bg-color: #24262b;
   --text-primary-color: #24262b;
   --text-secondary-color: #575a7b;
-  --success-color: #052957;
+  --success-color: #13cc3b;
   --white: white;
   --border: 1px solid var(--light-grey);
   --shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,

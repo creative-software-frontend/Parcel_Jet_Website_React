@@ -48,7 +48,7 @@ const TrackingPage = () => {
                   <div className="tracking_comapny_logo_wrapper">
                     <img
                       src={
-                        "https://system.parceljet.com/" +
+                        "https://system.parceljetbd.com/" +
                         trackingData.company.logo
                       }
                       alt=""
