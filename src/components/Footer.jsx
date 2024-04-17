@@ -126,7 +126,7 @@ const Footer = () => {
               </li>
               <div className="mb-3 mt-4">
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.percel"
+                  href="https://drive.google.com/file/d/1Tj9LvXPN8CCTyQwPa4RBQ1mORiL_3Ej8/view?usp=sharing"
                   target="_blank"
                 >
                   <img
