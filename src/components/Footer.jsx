@@ -125,8 +125,22 @@ const Footer = () => {
                 <input type="button" value="Subscribe" />
               </li>
               <div className="mb-3 mt-4">
+              <li className={"link_name footer_subscribe"}>Merchant Apps</li>
                 <a
-                  href="https://drive.google.com/file/d/1Tj9LvXPN8CCTyQwPa4RBQ1mORiL_3Ej8/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1kzUkggXP35WniWRcKzViAg_yloBvNyUI/view?usp=sharing"
+                  target="_blank"
+                >
+                  <img
+                    src="/google-play.png"
+                    alt="play store"
+                    style={{ width: "250px", objectFit: "contain" }}
+                  />
+                </a>
+              </div>
+              <div className="mb-3 mt-4">
+              <li className={"link_name footer_subscribe"}>Rider Apps</li>
+                <a
+                  href="https://drive.google.com/file/d/1fbEFTwQKoE4EA8rocrPyTHn2MSlWSl38/view?usp=sharing"
                   target="_blank"
                 >
                   <img
