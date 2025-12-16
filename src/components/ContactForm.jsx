@@ -103,14 +103,14 @@ const ContactForm = () => {
             
                       </p>
            
-            <p className={"mobile"}>+8801306660111</p>
+            <p className={"mobile"}>+880 1770-367187 </p>
                         </div>
                         <div className="address text-box">
                           <i>
                             <FaEnvelope />
                           </i>
                           <p className="contact-text">
-                          asiddik5767@gmail.com
+                          operation.parceljet@gmail.com
                           </p>
                         </div>
                         <div className="mail text-box">
@@ -118,7 +118,7 @@ const ContactForm = () => {
                             <FaMapMarkerAlt />
                           </i>
                           <p className="contact-text">
-                          688/C malibagh chowdhury para, dhaka
+                          52 Shahid Selina parvin road, Boro Moghbazar, Dhaka
                           </p>
                         </div>
                       </div>

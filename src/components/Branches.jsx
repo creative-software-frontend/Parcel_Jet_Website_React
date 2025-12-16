@@ -21,9 +21,9 @@ const Branches = () => {
               Central
             </h1>
             <p className={"address"}>
-            688/C Maligagh Chowdhury Para, Khilgom, Dhaka   </p>
-            <p className={"email"}>info@parcelpointltd.com</p>
-            <p className={"mobile"}>8801306660111</p>
+            52 Shahid Selina parvin road, Boro Moghbazar, Dhaka   </p>
+            <p className={"email"}>operation.parceljet@gmail.com</p>
+            <p className={"mobile"}>+880 1770-367187</p>
           </div>
           {/* single branch */}
           <div className={"branch"}>

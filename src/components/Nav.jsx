@@ -103,7 +103,7 @@ const Nav = () => {
               <i className="text-danger">
                 <FaPhoneAlt />
               </i>
-              <p className="contact text-danger fw-bold"> +8801306660111</p>
+              <p className="contact text-danger fw-bold">+880 1770-367187</p>
             </div>
           </ul>
 
