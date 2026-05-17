@@ -1,15 +1,7 @@
-import Pricing from "../components/Pricing";
-import courierPricing from "../db/olectra";
+import PricingTable from "../components/Pricing";
+
 const PricingPage = () => {
-  const titles = courierPricing.reduce((acc, pricing) => {
-    const pricingTitles = Object.keys(pricing);
-    return acc.concat(pricingTitles);
-  }, []);
-  return (
-    <div style={{ marginTop: "60px" }}>
-      <Pricing titles={titles} courierPricing={courierPricing} />
-    </div>
-  );
+  return <PricingTable />;
 };
 
 export default PricingPage;

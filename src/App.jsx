@@ -1,3 +1,4 @@
+import React from "react";
 // *************** Component CSS ******************
 import "./App.css";
 // router components

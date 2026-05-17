@@ -39,7 +39,7 @@ const Nav = () => {
               </Link>
             </li>
             {/* nav item for routing */}
-            {/* <li className={"navbarItem"}>
+            <li className={"navbarItem"}>
               <Link
                 className={"navbarLink"}
                 onClick={() => setOpenMenu(false)}
@@ -47,7 +47,7 @@ const Nav = () => {
               >
                 Price
               </Link>
-            </li> */}
+            </li>
             {/* nav item for routing */}
             <li className={"navbarItem"}>
               <Link

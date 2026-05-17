@@ -1,81 +1,80 @@
-// import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-/* 
- component pricing - Home Page
-*/
+import parcelJetPricing from "../db/parcelJetPricing";
+import "./pricing.css";
 
-const Pricing = ({ titles, courierPricing }) => {
+const PricingTable = () => {
   return (
-    <>
-      {/* pricing section */}
-      <section className={"section wrapper calculate-charge"}>
-        {/* price heading */}
-        <h2 className="section-heading price-heading mb-4 mx-auto pl-0">
-          Pricing
-        </h2>
+    <section className="pricing-section">
+      {/* Header */}
+      <div className="pricing-header">
+        <span className="pricing-eyebrow">PRICING PLANS</span>
+        <h1 className="pricing-title">
+          Providing <strong>Best Pricing</strong> For Your Business.
+        </h1>
+        <p className="pricing-subtitle">
+          All prices are VAT &amp; Tax exclusive. COD charge of 1% applies for
+          Sub Dhaka &amp; Outside Dhaka deliveries.
+        </p>
+      </div>
 
-        <div className="d-flex justify-content-center">
-          <ul
-            className="nav nav-pills mb-5 mt-5 ml-5"
-            id="pills-tab"
-            role="tablist"
-          >
-            {titles.map((title, index) => (
-              <li className="nav-item" key={index}>
-                <a
-                  className={`nav-link${index === 0 ? " active" : ""}`}
-                  id={`pills-${title.toLowerCase().replace(/\s/g, "-")}-tab`}
-                  data-toggle="pill"
-                  href={`#pills-${title.toLowerCase().replace(/\s/g, "-")}`}
-                  role="tab"
-                  aria-controls={`pills-${title
-                    .toLowerCase()
-                    .replace(/\s/g, "-")}`}
-                  aria-selected={index === 0 ? "true" : "false"}
-                >
-                  {title}
-                </a>
-              </li>
-            ))}
-          </ul>
+      {/* Info Cards */}
+      <div className="pricing-cards">
+        <div className="info-card inside-dhaka">
+          <div className="info-card-icon">🏙️</div>
+          <h3>Inside Dhaka</h3>
+          <div className="info-card-price">৳70</div>
+          <p>Base rate (up to 1 KG)</p>
+          <div className="info-card-extra">+৳15 per extra KG</div>
         </div>
+        <div className="info-card sub-dhaka">
+          <div className="info-card-icon">🏘️</div>
+          <h3>Sub Dhaka</h3>
+          <div className="info-card-price">৳110</div>
+          <p>Base rate (up to 1 KG)</p>
+          <div className="info-card-extra">+৳20 per extra KG</div>
+          <div className="info-card-cod">+1% COD Charge</div>
+        </div>
+        <div className="info-card outside-dhaka">
+          <div className="info-card-icon">🚚</div>
+          <h3>Outside Dhaka</h3>
+          <div className="info-card-price">৳130</div>
+          <p>Base rate (up to 1 KG)</p>
+          <div className="info-card-extra">+৳20 per extra KG</div>
+          <div className="info-card-cod">+1% COD Charge</div>
+        </div>
+      </div>
 
-        <div
-          className="tab-content mx-auto"
-          id="pills-tabContent"
-          style={{ height: "200px" }}
-        >
-          {courierPricing.map((title, index) => (
-            <div
-              key={index}
-              className={`text-center mx-auto tab-pane fade${
-                index === 0 ? " show active" : ""
-              }`}
-              id={`pills-${titles[index].toLowerCase().replace(/\s/g, "-")}`}
-              role="tabpanel"
-              aria-labelledby={`pills-${titles[index]
-                .toLowerCase()
-                .replace(/\s/g, "-")}-tab`}
-            >
-              {title[titles[index]].map((item, itemIndex) => (
-                <div
-                  key={itemIndex}
-                  className="card mr-4 text-center p-3 px-4 float-left mb-4"
-                >
-                  <div>
-                    <p>{item.name}</p>
-                    <h2>{item.price}</h2>
-                  </div>
-                  {/* <span style={{ color: "red" }} className="text-danger">
-                    {item.name} = {item.price}
-                  </span> */}
-                </div>
+      {/* Table */}
+      <div className="pricing-table-wrapper">
+        <h2 className="table-heading">Weight-Based Pricing Breakdown</h2>
+        <div className="table-scroll">
+          <table className="pricing-table">
+            <thead>
+              <tr>
+                <th>Weight (KG)</th>
+                <th>Inside Dhaka</th>
+                <th>Sub Dhaka</th>
+                <th>Outside Dhaka</th>
+              </tr>
+            </thead>
+            <tbody>
+              {parcelJetPricing.map((row, index) => (
+                <tr key={index} className={index % 2 === 0 ? "row-even" : "row-odd"}>
+                  <td className="weight-cell">{row.weight}</td>
+                  <td>{row.dhaka}</td>
+                  <td>{row.subDhaka}</td>
+                  <td>{row.outsideDhaka}</td>
+                </tr>
               ))}
-            </div>
-          ))}
+            </tbody>
+          </table>
         </div>
-      </section>
-    </>
+        <p className="table-note">
+          * Weight charge applies after the first 1 KG. &nbsp;|&nbsp; All
+          prices are VAT &amp; Tax exclusive.
+        </p>
+      </div>
+    </section>
   );
 };
 
-export default Pricing;
+export default PricingTable;
