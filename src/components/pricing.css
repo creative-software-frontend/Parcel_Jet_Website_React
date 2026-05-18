@@ -16,7 +16,7 @@
 .pricing-eyebrow {
   display: inline-block;
   color: #38bdf8;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -37,7 +37,7 @@
 
 .pricing-subtitle {
   color: #64748b;
-  font-size: 1rem;
+  font-size: 1.1rem;
   max-width: 560px;
   margin: 0 auto;
   line-height: 1.7;
@@ -95,7 +95,7 @@
 }
 
 .info-card h3 {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #334155;
   margin: 0 0 12px;
@@ -112,7 +112,7 @@
 }
 
 .info-card p {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: #94a3b8;
   margin: 0 0 14px;
 }
@@ -121,7 +121,7 @@
   display: inline-block;
   background: #f0fdf4;
   color: #16a34a;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 600;
   padding: 4px 12px;
   border-radius: 20px;
@@ -132,7 +132,7 @@
   display: inline-block;
   background: #fff7ed;
   color: #ea580c;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 600;
   padding: 4px 12px;
   border-radius: 20px;
@@ -146,14 +146,14 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
   border: 1px solid #e2e8f0;
   overflow: hidden;
-  padding: 32px 32px 24px;
+  padding: 44px 44px 36px;
 }
 
 .table-heading {
-  font-size: 1.15rem;
+  font-size: 1.85rem;
   font-weight: 700;
   color: #1e293b;
-  margin: 0 0 20px;
+  margin: 0 0 26px;
 }
 
 .table-scroll {
@@ -163,7 +163,7 @@
 .pricing-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.95rem;
+  font-size: 1.35rem;
 }
 
 .pricing-table thead tr {
@@ -172,10 +172,10 @@
 
 .pricing-table th {
   text-align: left;
-  padding: 14px 20px;
+  padding: 22px 28px;
   color: #64748b;
   font-weight: 700;
-  font-size: 0.82rem;
+  font-size: 1.15rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-bottom: 2px solid #e2e8f0;
@@ -183,7 +183,7 @@
 }
 
 .pricing-table td {
-  padding: 14px 20px;
+  padding: 22px 28px;
   color: #334155;
   border-bottom: 1px solid #f1f5f9;
   white-space: nowrap;
@@ -212,9 +212,9 @@
 }
 
 .table-note {
-  margin: 20px 0 0;
-  font-size: 0.82rem;
-  color: #94a3b8;
+  margin: 26px 0 0;
+  font-size: 1.05rem;
+  color: #64748b;
   line-height: 1.6;
 }
 
@@ -226,12 +226,20 @@
   }
 
   .pricing-table-wrapper {
-    padding: 20px 16px 16px;
+    padding: 28px 24px 24px;
   }
 
   .pricing-table th,
   .pricing-table td {
-    padding: 12px 14px;
+    padding: 16px 20px;
+  }
+
+  .pricing-table {
+    font-size: 1.15rem;
+  }
+
+  .pricing-table th {
+    font-size: 0.98rem;
   }
 }
 
